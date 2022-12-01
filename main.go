@@ -38,7 +38,7 @@ func main() {
 
     if len(os.Args) == 2 {
         if os.Args[1] == "-v" {
-            fmt.Printf("%sAncient simple Calculator: %s%s\n", BOLD, VERSION, END)
+            fmt.Printf("%sAncient simple Calculator-forked: %s%s\n", BOLD, VERSION, END)
             return
         } else {
             return
